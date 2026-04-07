@@ -18,14 +18,6 @@ IDE: STM32CubeIDE veya Keil uVision
 
 Derleyici: GNU Arm Embedded Toolchain
 
-📁 Proje Yapısı
-Plaintext
-├── Core
-│   ├── Inc             # Başlık dosyaları (.h)
-│   └── Src             # Kaynak dosyalar (.c) - Register yapılandırmaları burada yer alır
-├── Drivers             # CMSIS ve donanım sürücüleri
-└── README.md
-
 📝 Notlar
 Bu çalışma, gömülü sistemlerde donanım mimarisini daha derinlemesine anlamak ve çevre birimlerini düşük seviyede optimize etmek isteyenler için eğitim amaçlı hazırlanmıştır.
 
@@ -49,16 +41,6 @@ Development Board: STM32F407VGT6 Discovery (Cortex-M4)
 IDE: STM32CubeIDE, Keil uVision, or any ARM-compatible toolchain.
 
 Compiler: GNU Arm Embedded Toolchain.
-
-📁 Project Structure
-Plaintext
-├── Core
-│   ├── Inc             # Header files (.h)
-│   └── Src             # Source files (.c) - Core register configurations
-├── Drivers             # CMSIS and hardware-specific drivers
-└── README.md
-📖 Getting Started
-Clone the repository:
 
 📝 Purpose
 This project is designed for educational purposes to explore embedded systems at a low level, optimize peripheral performance, and master the STM32 hardware manual.
